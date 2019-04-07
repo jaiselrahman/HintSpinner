@@ -17,11 +17,12 @@
 package com.jaiselrahman.hintspinner;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.AppCompatSpinner;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.AdapterView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatSpinner;
 
 @SuppressWarnings("unused")
 public class HintSpinner extends AppCompatSpinner {

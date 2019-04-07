@@ -17,11 +17,6 @@
 package com.jaiselrahman.hintspinner;
 
 import android.content.Context;
-import android.support.annotation.CallSuper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,6 +25,12 @@ import android.widget.TextView;
 
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.annotation.CallSuper;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.core.content.ContextCompat;
 
 @SuppressWarnings({"unused", "WeakerAccess"})
 public class HintSpinnerAdapter<T> extends ArrayAdapter<T> {

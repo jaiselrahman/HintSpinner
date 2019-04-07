@@ -17,7 +17,6 @@
 package com.jaiselrahman.hintspinnersample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -25,6 +24,8 @@ import android.widget.TextView;
 
 import com.jaiselrahman.hintspinner.HintSpinner;
 import com.jaiselrahman.hintspinner.HintSpinnerAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private CustomObject[] labels = new CustomObject[]{
